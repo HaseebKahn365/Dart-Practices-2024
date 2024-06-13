@@ -7,6 +7,10 @@ void main(List<String> args) {
 
   var names = ['haseeb', 'bilal'].map((e) => e.toUpperCase()).toList();
   print(names);
+  List<String> lowerCaseNames = names.map((String sds) {
+    return sds.toLowerCase();
+  }).toList();
+  print(lowerCaseNames);
 }
 
 void printThis(void second(String s), String passed) {
