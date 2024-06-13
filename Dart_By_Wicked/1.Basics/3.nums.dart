@@ -7,7 +7,7 @@ void main(List<String> args) {
   print(d.roundToDouble());
   print(d.toStringAsFixed(2));
 
-  int a = 7 ~/ 3;
+  int a = 7 ~/ 3; //int quotient
   print(a);
-  print(7 % 3);
+  print(7 % 3); //remainder
 }
