@@ -18,4 +18,7 @@ void main(List<String> args) {
       controller.close();
     }
   });
+
+  firstSubscriptioon.cancel();
+  secondSubscriptioon.cancel();
 }
