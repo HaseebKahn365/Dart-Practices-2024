@@ -1,5 +1,5 @@
-import 'package:cellz_testing/cellz_testing.dart' as cellz_testing;
-
 void main(List<String> arguments) {
-  print('Hello world: ${cellz_testing.calculate()}!');
+  Map<int, String> map = {1: 'one', 2: 'two', 3: 'three'};
+  String? a = map[4];
+  print(a);
 }
